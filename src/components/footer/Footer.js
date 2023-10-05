@@ -1,6 +1,14 @@
 import React from "react";
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import {
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+  BsWhatsapp,
+  BsYoutube,
+} from "react-icons/bs";
 import { Link } from "react-router-dom";
+// import "./App.css";
 
 const Footer = () => {
   return (
@@ -85,6 +93,12 @@ const Footer = () => {
                     prasadtirri333@gmail.com
                   </a>
                 </p>
+                <div className="d-flex justify-content-between">
+                  <BsLinkedin />
+                  <BsFacebook className="icon" />
+                  <BsWhatsapp className="icon" />
+                  <BsGithub className="icon" />
+                </div>
               </div>
               <div>
                 <h4>Information</h4>
