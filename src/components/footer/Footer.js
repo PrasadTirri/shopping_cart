@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </footer> */}
-      <footer className="bg-dark header1">
+      <footer className="bg-dark text-white header1">
         <div className="container-xxl">
           <div className="row p-2">
             <div className="col-4">
@@ -71,7 +71,7 @@ const Footer = () => {
       <footer className="bg-dark p-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12 d-flex justify-content-between">
+            <div className="col-12 text-white d-flex justify-content-between">
               <div>
                 <h4>Contact Us</h4>
                 <address>

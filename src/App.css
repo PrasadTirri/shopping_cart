@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 body {
   font-family: 'Rubik', sans-serif;
@@ -87,4 +87,72 @@ a {
   border-radius: 10px;
   color: black;
   border: 1px solid orange;
+}
+
+/* Home wrapper2 */
+
+.home-wrapper-2 {
+  background-color: rgb(232, 230, 230);
+  padding: 10px;
+}
+.text-para {
+  font-size: 12px;
+}
+
+.home-wrapper-2-2 {
+  background-color: rgb(232, 230, 230);
+}
+.icon-hw-2 {
+  background-color: white;
+  margin: 10px;
+}
+.image {
+  height: 120px;
+}
+.marquee-container {
+  padding: 10px;
+  background-color: rgb(232, 230, 230);
+}
+.marqu {
+  background-color: white;
+  box-shadow: 2px 2px 5px 2px rgb(147, 146, 146);
+}
+.cards {
+  background-color: rgb(232, 230, 230);
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
+}
+.blog-img {
+  height: 100px !important;
+}
+.blog-card {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 2px rgb(197, 196, 196);
+  overflow: hidden;
+}
+.cart-options {
+  margin-left: 104%;
+}
+.blog-card:hover .cart-options {
+  margin-left: -10px;
+}
+.blog-card .product-image > img:last-child {
+  display: none;
+}
+
+.blog-card:hover .product-image > img:nth-child(1) {
+  display: none;
+}
+.blog-card:hover .product-image > img:last-child {
+  display: block;
+}
+.product-image {
+  text-align: center;
+}
+.product-images-section {
+  background-color: rgb(232, 230, 230);
 }
