@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../../components/BlogCard";
 import ProductCard from "../../components/ProductCard";
+import SpecialProducts from "../../components/SpecialProducts";
 
 const Home = () => {
   return (
@@ -211,6 +212,82 @@ const Home = () => {
                 <ProductCard />
               </div>{" "}
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="famous-card-wrapper home-wrapper-2-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="one famous-card1 bg-dark position-relative">
+                <img className="text-center" src="images/speaker.jpg" alt="" />
+                <div className="position-absolute famouscard-text1 text-white">
+                  <p>Big Screen</p>
+                  <h5>Smart Watch Series 7</h5>
+                  <h6>From $399or $16.62/mo. for 24 mo.</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="one famous-card1 bg-white position-relative">
+                <img className="text-center" src="images/speaker.jpg" alt="" />
+                <div className="position-absolute famouscard-text1 ">
+                  <p>Big Screen</p>
+                  <h5>Smart Watch Series 7</h5>
+                  <h6>From $399or $16.62/mo. for 24 mo.</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="one famous-card1 bg-white position-relative">
+                <img className="text-center" src="images/speaker.jpg" alt="" />
+                <div className="position-absolute famouscard-text1 ">
+                  <p>Big Screen</p>
+                  <h5>Smart Watch Series 7</h5>
+                  <h6>From $399or $16.62/mo. for 24 mo.</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="one famous-card1 bg-white position-relative">
+                <img className="text-center" src="images/speaker.jpg" alt="" />
+                <div className="position-absolute famouscard-text1">
+                  <p>Big Screen</p>
+                  <h5>Smart Watch Series 7</h5>
+                  <h6>From $399or $16.62/mo. for 24 mo.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="special-wrapper home-wrapper-2-2 ">
+        <div className="container-xxl text-center">
+          <div className="row">
+            <div className="col-12">
+              <h5 style={{ marginLeft: "-80%" }}>Special Products</h5>
+              <div className="d-flex">
+                <SpecialProducts />
+                <SpecialProducts />
+                <SpecialProducts />
+                <SpecialProducts />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="popular-wrapper cards ">
+        <div className="container-xxl text-center">
+          <div className="row">
+            <div className="col-12">
+              <h5 style={{ marginLeft: "-80%" }}>Our Popular Products</h5>
+            </div>
+          </div>
+          <div className="row">
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>

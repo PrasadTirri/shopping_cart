@@ -129,7 +129,7 @@ a {
 .blog-card {
   background-color: white;
   padding: 10px;
-  margin: 5px;
+  /* margin: 5px; */
   border-radius: 5px;
   box-shadow: 2px 2px 6px 2px rgb(197, 196, 196);
   overflow: hidden;
@@ -155,4 +155,26 @@ a {
 }
 .product-images-section {
   background-color: rgb(232, 230, 230);
+}
+
+/* special-product card */
+
+.special-product-card {
+  background-color: white;
+  padding: 10px;
+  /* margin: 5px; */
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 2px rgb(197, 196, 196);
+}
+.img-special-container {
+  height: 150px;
+}
+.famous-card1 {
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+}
+.famous-card1 .famouscard-text1 {
+  top: 10%;
+  left: 10%;
 }
